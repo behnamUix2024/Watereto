@@ -1,7 +1,48 @@
-/.gradle/
-/build/
-/app/build/
-/local.properties
-/.idea/
-/captures/
-/*.iml
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+.idea/
+*.iml
+*.hprof
+
+# Kotlin/Java error logs
+*.log
+.kotlinc/
+.kotlin/
+
+# Android Studio captures
+captures/
+
+# APK / AAB / outputs
+*.apk
+*.ap_
+*.aab
+output-metadata.json
+
+# Proguard / R8
+proguard/
+
+# Misc
+.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+
+# Kotlin metadata
+*.kotlin_module
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+*.ipr
+*.iws
+out/
+
+# Others
+*.orig
